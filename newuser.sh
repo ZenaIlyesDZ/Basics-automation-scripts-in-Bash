@@ -3,7 +3,7 @@
 echo "What is the username of the new user?"
 
 read username
-useradd $username
+useradd $username 
 passwd $username
 
 mkdir /home/$username
